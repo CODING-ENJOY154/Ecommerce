@@ -1,0 +1,54 @@
+.homeProducts {
+    margin-bottom: 200px;
+    padding: 25px 0;
+}
+
+.homeProducts .container-fluid .d-flex {
+    display: flex;
+    justify-content: space-between; /* Ensures spacing between elements */
+    align-items: center; /* Aligns items vertically */
+    flex-wrap: wrap; /* Prevents overflow on smaller screens */
+}
+
+.filterTab {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.filterTab li {
+    margin-left: 20px;
+    list-style: none;
+}
+
+.filterTab li a {
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+    display: inline-block;
+}
+
+.filterTab li:hover a {
+    color: #3bb77e !important;
+    transform: translateX(-10px);
+}
+
+.homeProducts .productRow{
+
+display: flex;
+padding: 30px 0px;
+margin: 0px -15px;
+}
+
+.homeProducts .productRow .item{
+
+width: 20%;
+height: 300px;
+padding: 0px 15px;
+
+
+}
